@@ -310,6 +310,7 @@ async function main() {
     // =========================
     updateParams();
     draw(inputBuffer);
+    console.log("Initial draw submitted");
     updateStatus();
 }
 
